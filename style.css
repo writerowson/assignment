@@ -6,8 +6,9 @@ h1{
    font-size: 55px;
 }
 .side-effect{
-    border-left: 10px solid rgb(172, 32, 32);
-    border-radius: 10px; 
+    border-left: 7px solid rgb(204, 48, 48);
+    border-radius: 7px; 
+    padding-left: 2%;
 }
 h2{
     font-size: 35px;
@@ -36,8 +37,8 @@ h3{
 }
 .link-button{
     color: white;
-    background-color:rgb(114, 5, 5);
-    padding: 7px, 30px;
+    background-color:rgb(204, 48, 48);
+    padding: 7px 30px;
     text-decoration: none;
     text-align: center;
     font-weight: 700;
