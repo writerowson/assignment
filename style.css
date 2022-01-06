@@ -3,8 +3,11 @@ body{
     margin: 0;
 }
 h1{
-   font-size: 55px; 
-   
+   font-size: 55px;
+}
+.side-effect{
+    border-left: 10px solid rgb(172, 32, 32);
+    border-radius: 10px; 
 }
 h2{
     font-size: 35px;
@@ -16,12 +19,11 @@ h3{
     display: flex;
     margin-bottom: 150px;
 }
-#side-effect{
-    border-radius: 7px    
-
+.deep-blue{
+    color:rgb(4, 5, 20)
 }
 .brown{
-    color:darkgoldenrod;
+    color:rgb(241, 176, 10);
 }
 .half-width{
     width: 70%;
@@ -39,7 +41,7 @@ h3{
     text-decoration: none;
     text-align: center;
     font-weight: 700;
-    margin: 10px 40px;
+    margin: 4px 2px;
     display: inline-table;
 }
 .web-development{
@@ -52,7 +54,7 @@ h3{
 .web-development img{
     width: 100%;
 }
-#mission-2022{
+.mission-2022{
     text-align: center;
 }
 .half-side{
@@ -61,7 +63,16 @@ h3{
 }
 .half-side img{
     width: 60%;
-    padding-left: 15%;
+    padding-left: 25%;
+    float: left;
+}
+.half-sided{
+    width: 70%;
+    padding-right: 10%;
+}
+.half-sided img{
+    width: 90%;
+    padding-left: 25%;
     float: left;
 }
 .half-wide{
@@ -70,7 +81,7 @@ h3{
 }
 .half-wide img{
     width: 60%;
-    padding-right: 15%;
+    padding-right: 25%;
     float: right;    
 }
 #mission{
@@ -84,4 +95,12 @@ h3{
 #goal{
     background-color: rgb(235, 248, 210);
     margin: 10px 10px;   
+}
+.ending{
+    font-family: 'Times New Roman', Times, serif  ;
+}
+footer{
+    color: white;
+    background-color: rgb(4, 5, 20);
+    padding: 20px 40px;
 }
